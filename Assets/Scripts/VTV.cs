@@ -14,6 +14,7 @@ public class VTV : MonoBehaviour
     float AñoHoy = 2025;
 
     // Start is called before the first frame update
+
     void Start()
     {
         if (Patente == "" || ModeloDeFabricacion < 1900 || ModeloDeFabricacion > 2025 || KilometrosRecorridos < 0 || AñoVtv > 2025 || AñoVtv < ModeloDeFabricacion || Hcppm < 5 || Hcppm > 100 )
